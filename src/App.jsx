@@ -16,27 +16,30 @@ const NAV_LINKS = [
 
 const EXPERIENCE = [
     {
-        role: 'Data Analyst',
+        role: 'Data Analyst Intern',
         company: 'Unisoft Technologies',
-        duration: 'June 2025 – Present',
-        location: 'Nagpur, India',
-        current: true,
+        duration: 'July 2025 – January 2026',
+        location: 'Nagpur, Maharashtra',
+        current: false,
         bullets: [
-            'Performing data analysis on large-scale datasets to extract actionable business insights.',
-            'Building dashboards and automated reports for stakeholders using Python and SQL.',
-            'Collaborating with cross-functional teams to streamline data-driven decision-making.',
+            'Worked on real-time SQL-based data analysis and reporting.',
+            'Wrote complex queries using JOINs, GROUP BY, aggregate functions, and subqueries.',
+            'Performed data cleaning and preprocessing using SQL and Python.',
+            'Supported database management and improved reporting accuracy.',
+            'Gained hands-on experience in handling structured datasets and generating business insights.',
         ],
     },
     {
         role: 'Machine Learning Intern',
         company: 'HARLogic',
         duration: 'Dec 2024 – May 2025',
-        location: 'Remote',
+        location: 'Nagpur, Maharashtra',
         current: false,
         bullets: [
-            'Developed and fine-tuned machine learning models for real-world business problems.',
-            'Built data preprocessing pipelines and feature engineering workflows.',
-            'Communicated model performance results and recommendations to team leads.',
+            'Contributed to the development of an AI-driven virtual interview system.',
+            'Integrated Machine Learning models for interview performance analysis.',
+            'Worked on backend logic and database integration to store and evaluate candidate responses.',
+            'Assisted in model evaluation, testing, and optimization.',
         ],
     },
     {
@@ -61,6 +64,14 @@ const PROJECTS = [
         description:
             'AI-powered mental health detection system using facial emotion recognition. Combines deep learning with a cross-platform mobile UI to provide real-time emotional wellness insights.',
         icon: 'psychology',
+    },
+    {
+        name: 'Enquiry Management System',
+        year: '2025',
+        tags: ['Oracle SQL', 'Database Design', 'ER Diagrams'],
+        description:
+            'Designed and implemented a database system to manage student enquiries, staff assignments, and course details. Created ER diagrams and structured relational tables with primary and foreign key constraints. Implemented efficient SQL queries to track enquiry status, source information, and follow-ups.',
+        icon: 'assignment',
     },
     {
         name: 'Oral Healthcare Detection',
@@ -248,7 +259,7 @@ function Hero() {
                     Resham Mahant
                 </h1>
                 <p className="hero-subtitle reveal reveal-delay-2">
-                    AI &amp; Machine Learning Engineer
+                    AI &amp; Data Analyst | Machine Learning | SQL | Python
                 </p>
                 <p className="hero-location reveal reveal-delay-2">
                     <Icon name="location_on" /> Nagpur, Maharashtra, India
@@ -281,14 +292,14 @@ function About() {
                     </div>
                     <div className="about-info">
                         <h3 className="title-large reveal">
-                            Building Intelligent Solutions with AI&nbsp;&amp;&nbsp;ML
+                            Building Intelligent Solutions with AI&nbsp;&amp;&nbsp;Data Analytics
                         </h3>
                         <p className="body-large reveal reveal-delay-1">
-                            I'm an AI &amp; Machine Learning Engineer with a passion for developing intelligent
-                            systems that solve real-world problems. Currently pursuing my B.Tech in Artificial
-                            Intelligence, I combine strong foundations in data science, deep learning, and
-                            software engineering to create impactful applications — from healthcare detection
-                            systems to emotion-aware AI products.
+                            I'm an AI &amp; Data Analyst with a strong foundation in Artificial Intelligence
+                            and Machine Learning. With practical experience in SQL-based data analysis and
+                            hands-on internship experience in AI systems and Data Analytics, I build
+                            real-world AI applications — from virtual interview systems and mental health AI
+                            to SQL-driven database systems.
                         </p>
                         <div className="about-highlights reveal reveal-delay-2">
                             <div className="highlight-item">
@@ -297,7 +308,7 @@ function About() {
                             </div>
                             <div className="highlight-item">
                                 <Icon name="folder" />
-                                <span>3+ Projects</span>
+                                <span>4+ Projects</span>
                             </div>
                             <div className="highlight-item">
                                 <Icon name="verified" />
